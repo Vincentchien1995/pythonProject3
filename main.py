@@ -4,7 +4,7 @@ def simple_search(tab, item):
         if tab[i] == item:
             return i
         i += 1
-    return -1
+        return -1
 
 nitems = int(input("Enter the number of items: "))
 items = []
